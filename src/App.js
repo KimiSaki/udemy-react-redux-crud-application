@@ -1,10 +1,7 @@
 
 function App() {
   return (
-    <div>
-      <header>Hello, world!!
-      </header>
-    </div>
+    <h1>Hello, world!!</h1>
   );
 }
 
