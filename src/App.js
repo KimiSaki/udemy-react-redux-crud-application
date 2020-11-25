@@ -1,7 +1,10 @@
 
 function App() {
   return (
-    <h1>Hello, world!!</h1>
+    <div>
+      <label htmlFor="bar">bar</label>
+      <input type="text" onChange={() => {console.log("I'm React!")}} />
+    </div>
   );
 }
 
